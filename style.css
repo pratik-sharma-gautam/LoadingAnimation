@@ -1,0 +1,82 @@
+h4{
+    animation-name: animation1;
+    animation-duration: .92s;
+    animation-iteration-count: infinite;
+    animation-delay: .5s;
+    animation-timing-function: ease-out;
+}
+@keyframes animation1 {
+   from{
+    opacity: .9;
+   }
+   to{
+    opacity: 0;
+   }
+}
+.box{
+    height: 25px;
+    width: 290px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.line{
+    height: 100%;
+    background: red;
+    border-radius: 20px;
+    animation: animation2 1 6s ease-out;
+}
+/* h6{
+    animation: animation2 1 6s ease-out;
+} */
+@keyframes animation2{
+    0%{
+        width: 0;
+    }
+    5%{
+        width: 10px;
+    }
+    15%{
+        width: 40px;
+    }
+    25%{
+        width: 60px;
+
+    }
+    30%{
+        width: 69px;
+
+    }
+   
+    35%{
+        width: 80px;
+       
+
+    }
+    45%{
+        width: 92px;
+    }
+    55%{
+        width: 100px;
+    }
+    65%{
+        width: 125px;
+    }
+    75%{
+        width: 160px;
+    }
+    80%{
+        width: 200px;
+    }
+    85%{
+        width: 210px;
+    }
+    90%{
+        width: 240px;
+    }
+    100%{
+        width: 290px;
+    }
+}
+h6{
+    animation: animation3 7s 1;
+}
